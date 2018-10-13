@@ -180,7 +180,7 @@ In the above query, we can have a ``where`` clause to apply filters on the data.
 ``order_by`` is used to sort the results by a column. A prefix of ``+`` or ``-`` indicates ascending or descending order
 respectively. ``limit`` and ``offset`` are used to slice the result set.
 
-Example,
+
 
 .. rst-class:: api_tabs
 .. tabs::
