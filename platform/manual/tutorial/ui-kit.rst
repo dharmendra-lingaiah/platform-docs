@@ -23,7 +23,7 @@ enabling other providers, :ref:`read the instructions here <providers>`.
 Enable auth with email
 ----------------------
 
-#. Open the ``conf/auth.yaml`` file from the project directory. Enable email provider to by setting ``defaultProviders > email > enabled`` to *true*.
+#. Open the ``conf/auth.yaml`` file from the project directory. Enable email provider by setting ``defaultProviders > email > enabled`` to *true*.
 
 #. Run a ``git push`` to ``hasura`` remote to apply these changes to the cluster.
 
@@ -52,7 +52,7 @@ Enable auth with Google
 
 #. Obtain your Google OAuth ``client ID`` and ``client secret``.
 
-#. Open the ``conf/auth.yaml`` file from the project directory. Enable Google provider to by setting ``defaultProviders > google > enabled`` to *true*.
+#. Open the ``conf/auth.yaml`` file from the project directory. Enable Google provider by setting ``defaultProviders > google > enabled`` to *true*.
 
 #. Find the ``google`` key in ``conf/auth.yaml`` and enter your client ID in the ``clientIds`` array there. (The ``google`` key might be commented)
 
