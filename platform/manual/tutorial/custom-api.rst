@@ -8,7 +8,7 @@ be needed to be added specifically to the project.
 Hasura provides easy ways to deploy custom microservices by either specifying ``docker`` images
 or by directly pushing code via ``git``.
 
-Let us explore the 2 use cases:
+Let's explore the two use cases:
 
 Custom code: Adding a simple web-server to serve a UI
 -----------------------------------------------------
